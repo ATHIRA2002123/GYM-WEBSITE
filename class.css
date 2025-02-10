@@ -1,0 +1,254 @@
+/* Styling For Our Classes Begins Here */
+.class-hero-image {
+  background-image: url('../images/gym-kit.jpeg'); 
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.class-hero-image h1{
+  color: #FFFFFF;
+  font-size: 60px;
+  text-decoration: none;
+  border-bottom: 4px solid #D9D9D9;
+  border-radius: 2px;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 20vh;
+  margin-bottom: 4rem;
+}
+.class-card-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 0 3%;
+  margin: 0px;
+  position: relative;
+}
+.class-hero-card {
+  font-size: 28px;
+  color: #FFFFFF;
+  width: 300px;
+  height: 321px;
+  border-radius: 50px;
+  margin-bottom: 8rem;
+  position: relative;
+}
+.class-hero-card img{
+  width: 100%;
+  height: 250px;
+  border: 4px solid #FFFFFF;
+  border-radius: 50px;
+  object-fit: cover;
+  margin-bottom: 2rem;
+}
+.class-hero-card h4{
+  margin-bottom: 1.3rem;
+  font-size: 20px;
+}
+
+
+/* Styles for Our Training Partner */
+.training-partners {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.training-partner-part1 {
+  position: absolute;
+  background-color: #FFFFFF; 
+  width: 100%;
+  height: 50%; 
+  z-index: 1;
+}
+.training-partner-part2 {
+  position: absolute;
+  background-color: rgba(255, 165, 0, 0.34);
+  width: 100%;
+  height: 50%;
+  top: 50%;
+  z-index: 2; 
+}
+.training-partner-part1 h1{
+  color: #2a2626;
+  font-size: 60px;
+  text-decoration: none;
+  border-bottom: 4px solid #000000;
+  border-radius: 2px;
+  width: 670px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+.training-partner-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  margin: 0 auto; 
+  z-index: 3; 
+  padding: 5%;
+}
+.training-partner-card {
+  width: 100%; 
+  text-align: center;
+  box-sizing: border-box; 
+  background-color: transparent; 
+  padding: 0 5%;
+}
+
+.training-partner-card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px; 
+  margin-top: 90px;
+  margin-bottom: 1rem;
+}
+
+/* Style for the buttons */
+.class-hero-btn {
+  background-color: #C53B3B; 
+  color: #FFFFFF; 
+  padding: 15px 35px; 
+  font-size: 18px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+.class-hero-btn:hover {
+  background-color: #902020; 
+  color: #FFFFFF; 
+}
+
+.training-partner-btn {
+  background-color: #4D4848; 
+  color: #FFFFFF; 
+  padding: 15px 35px; 
+  font-size: 18px;
+  border: none;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+.training-partner-btn:hover {
+  background-color: #2a2626; 
+  color: #FFFFFF; 
+}
+
+.image-carousel{
+  width: 100%;
+  height: 501px;
+  position: relative;
+}
+.image-carousel img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: fill;
+}
+@media only screen and (max-width: 500px){
+  .image-carousel{
+    height: 251px;
+  }
+}
+@media only screen and (min-width: 501px) and (max-width: 768px){
+  .image-carousel{
+    height: 351px;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1100px){
+  .image-carousel{
+    height: 401px;
+  }
+}
+
+@media only screen  and (max-width: 900px){
+  .class-hero-image {
+  width: 100%;
+  height: auto;
+  }
+  .class-hero-image h1{
+    font-size: 40px;
+    border-radius: 2px;
+    width: 270px;
+    margin-top: 15vh;
+    margin-bottom: 3.7rem;
+  }
+}
+
+
+@media only screen and (min-width: 451px) and (max-width: 768px){
+  .training-partner-part1 h1{
+    font-size: 40px;
+    border-radius: 2px;
+    width: 451px;
+    margin: 0 auto;
+    margin-top: 5vh;
+  }
+  .training-partner-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+    margin: 0 auto; 
+    z-index: 3; 
+  }
+  .training-partner-card{
+    width: 215px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .training-partner-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px; 
+    margin-top: 100px;
+  }
+}
+
+@media only screen and (max-width: 451px) {
+  .training-partner-part1 h1{
+    font-size: 40px;
+    border-radius: 2px;
+    width: 270px;
+    margin: 0 auto;
+    margin-top: 5vh;
+  }
+  .training-partner-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 9rem;
+    padding-bottom: 3rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    z-index: 3; 
+  }
+  .training-partner-card{
+    width: 290px;
+    margin: 0 auto;
+  }
+  .training-partner-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 8px; 
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+}

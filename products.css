@@ -1,0 +1,285 @@
+/* Styling For Product Page Section-1 Begins Here */
+.product-hero-image1 {
+  position: relative;
+  overflow: hidden;
+}
+.product-hero-image1::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/pexels-taryn.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(3px); 
+  opacity: 0.8;
+  z-index: -1; 
+}
+.hero-text1 h1 {
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: 3.5px solid #000000;
+  border-radius: 2px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 19vh;
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 1; 
+}
+
+.product-card-container1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2% 3%;
+  margin: 0 auto;
+}
+.product-hero-card1 {
+  font-size: 28px;
+  color: #FFFFFF;
+  width: 300px;
+  height: 300px;
+  margin-bottom: 8rem;
+  position: relative;
+}
+.product-hero-card1 img {
+  width: 100%;
+  height: 250px;
+  border: 4px solid #000000;
+  border-radius: 50px;
+  object-fit: fill;
+  margin-bottom: 2rem;
+}
+.product-hero-card1 img:hover {
+  border: 4px solid #3f3e3e;
+}
+
+/* Style for the buttons */
+.product-hero-btn {
+  background-color: #FFA500; 
+  border: 1px solid #FFFFFF;
+  color: #000000; 
+  padding: 17px 60px; 
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  word-spacing: 3px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+  text-align: center;
+}
+.product-hero-btn:hover {
+  background-color: #d38a03; 
+  padding: 16px 59px; 
+  border: 2px solid #FFFFFF;
+} 
+
+
+
+/* Styling For Product Page Section-2 Begins Here */
+.product-hero-image2 {
+  position: relative;
+  overflow: hidden;
+}
+.product-hero-image2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/pexels-tima.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(3px); 
+  opacity: 0.8;
+  z-index: -1; 
+}
+.hero-text2 h1 {
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 3.5px solid #000000;
+  border-radius: 2px;
+  width: 550px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 7vh;
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 1; 
+}
+
+.product-card-container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2% 3%;
+  padding-bottom: 0%;
+  margin: 0 auto;
+}
+.product-hero-card2 {
+  font-size: 28px;
+  color: #FFFFFF;
+  width: 270px;
+  height: auto;
+  margin-bottom: 5rem;
+  position: relative;
+}
+.product-hero-card2 img {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  object-fit: fill;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 0px 10px black;
+}
+.product-hero-card2 img:hover {
+  border: 1px solid #3f3e3e;
+}
+
+
+
+/* Styling For Product Page Section-3 Begins Here */
+.product-hero-image3 {
+  position: relative;
+  overflow: hidden;
+}
+.product-hero-image3::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/keagan-henman.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(3px); 
+  opacity: 0.8;
+  z-index: -1; 
+}
+.hero-text3 h1 {
+  color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 60px;
+  font-weight: 600;
+  text-decoration: none;
+  border-bottom: 3.5px solid #000000;
+  border-radius: 2px;
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 7vh;
+  margin-bottom: 4rem;
+  position: relative;
+  z-index: 1; 
+}
+
+.product-card-container3 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+  padding: 2% 3%;
+  padding-bottom: 0%;
+  margin: 0 auto;
+}
+.product-hero-card3 {
+  font-size: 28px;
+  color: #FFFFFF;
+  width: 270px;
+  height: auto;
+  margin-bottom: 5rem;
+  position: relative;
+}
+.product-hero-card3 img {
+  width: 100%;
+  height: 300px;
+  border: 2px solid #000000;
+  border-radius: 6px;
+  object-fit: fill;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+  box-shadow: 0px 0px 10px black;
+}
+.product-hero-card3 img:hover {
+  border: 1px solid #3f3e3e;
+}
+
+
+
+/* Responsive design begins here */
+@media only screen  and (max-width: 900px){
+  .product-hero-image1 {
+  width: 100%;
+  height: auto;
+  }
+  .product-hero-image1 h1 {
+    font-size: 40px;
+    border-radius: 2px;
+    width: 270px;
+    margin-top: 12vh;
+    margin-bottom: 2.7rem;
+  }
+
+  .product-hero-image2 {
+    width: 100%;
+    height: auto;
+  }
+  .product-hero-image2 h1{
+    font-size: 40px;
+    border-radius: 2px;
+    width: 270px;
+    margin-top: 5vh;
+    margin-bottom: 2.7rem;
+  }
+
+  .product-hero-image3 {
+    width: 100%;
+    height: auto;
+  }
+  .product-hero-image3 h1{
+    font-size: 40px;
+    border-radius: 2px;
+    width: 270px;
+    margin-top: 5vh;
+    margin-bottom: 2.7rem;
+  }
+
+
+  .product-hero-card {
+    font-size: 28px;
+    color: #FFFFFF;
+    width: 300px;
+    height: 321px;
+    border-radius: 50px;
+    margin-bottom: 5rem;
+    position: relative;
+  }
+  .product-hero-card img{
+    width: 100%;
+    height: 250px;
+    border: 4px solid #000000;
+    border-radius: 50px;
+    object-fit: fill;
+    margin-bottom: 1rem;
+  }
+}
