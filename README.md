@@ -1,4 +1,4 @@
-                         🌟 Fitness Star Gym
+🌟 Fitness Star Gym
 
 
 
@@ -9,6 +9,7 @@
 
 
 📌 Features
+
        ✅ Home Page – Overview of the gym with an attractive UI.
        
        ✅ Class Page – Details about fitness classes and schedules.
